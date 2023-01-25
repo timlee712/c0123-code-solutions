@@ -11,7 +11,7 @@ button:hover {
   background-color: black;
 }
 
-.gray {
+tr:nth-child(odd) {
   background-color: lightgray;
 }
 
