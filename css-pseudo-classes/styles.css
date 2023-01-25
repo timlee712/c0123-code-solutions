@@ -1,0 +1,21 @@
+button {
+  box-sizing: border-box;
+  font-size: 23px;
+  margin: auto;
+  padding: 15px 40px;
+}
+
+button:hover {
+  cursor: pointer;
+  color: white;
+  background-color: black;
+}
+
+.gray {
+  background-color: lightgray;
+}
+
+th {
+  color: white;
+  background-color: black;
+}
