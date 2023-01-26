@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+h1 {
+  margin: 20px 320px;
+  font-size: 35px;
+}
+
+.container {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.column-one-third {
+  flex-basis: calc(400% / 3);
+}
+
+img {
+  width: 100%;
+}
