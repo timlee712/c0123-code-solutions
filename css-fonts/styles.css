@@ -2,3 +2,10 @@
   font-family: 'Asap', Verdana;
   line-height: 20px;
 }
+
+#submit-button {
+  border-radius: 30px;
+  color: white;
+  background-color: orangered;
+  padding: 5px 8px;
+}
