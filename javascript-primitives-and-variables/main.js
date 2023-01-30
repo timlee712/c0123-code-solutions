@@ -1,0 +1,15 @@
+var fullName = 'Timothy Lee';
+var isCool = true;
+var totalPets = 1;
+console.log('My full name is', fullName);
+console.log('Variables are cool, true or false:', isCool);
+console.log('Total number of pets:', totalPets);
+console.log('typeof fullName:', typeof fullName);
+console.log('typeof isCool:', typeof isCool);
+console.log('typeof totalPets:', typeof totalPets);
+var unknown = null;
+console.log('The value of unknown:', unknown);
+console.log('typeof unknown:', typeof unknown);
+var never;
+console.log('The value of never:', never);
+console.log('typeof never:', typeof never);
