@@ -50,10 +50,9 @@ li {
 }
 
 #blue-logo {
-  float: left;
   width: 200px;
   height: 35px;
-  margin: 30px 230px 0 20px;
+  margin: 30px 230px 0 0;
 }
 
 #contact {
@@ -183,7 +182,6 @@ ul {
 }
 
 #white-logo {
-  float: left;
   width: 200px;
   height: 35px;
   margin: 100px 430px 50px 80px;
@@ -202,8 +200,6 @@ ul {
 
 .col-7,
 .col-8 {
-  justify-content: space-;
-  flex-flow: wrap column;
   margin-top: 100px;
   margin-left: 100px;
   margin-right: 100px;
@@ -242,25 +238,25 @@ a {
   right: 58px;
 }
 
-#prod {
+#product {
   position: relative;
   right: 100px;
 }
 
-#pro,
-#hp,
-#imp,
+#product-1,
+#health-plans,
+#implementation,
 #secure {
   position: relative;
   right: 110px;
 }
 
-#imp {
+#implementation {
   position: relative;
   top: 20px;
 }
 
-#hp {
+#health-plans {
   position: relative;
   top: 40px;
 }
@@ -281,14 +277,16 @@ a {
   right: 8px;
 }
 
-.end {
+.contact-us {
   color: #6e6e6e;
   font-size: 18px;
   padding-left: 40px;
 }
 
-#priv {
+#privacy {
   padding-left: 80px;
+  color: #6e6e6e;
+  font-size: 18px;
 }
 
 footer {
@@ -298,5 +296,4 @@ footer {
 
 h4 {
   font-family: Avenir, Arial, Helvetica, sans-serif;
-  font-size: ;
 }
