@@ -1,0 +1,299 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: end;
+  border-bottom: solid 1px lightgray;
+}
+
+#title {
+  margin-left: 50px;
+  margin-right: 900px;
+  font-family: "Tiempos Headline", serif;
+  color: navy;
+}
+
+li,
+p,
+h3 {
+  font-family: Avenir, Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-family: "Tiempos Headline", serif;
+  font-size: 45px;
+  font-weight: lighter;
+  width: 500px;
+  padding-top: 85px;
+  margin-bottom: 0;
+}
+
+.top > p {
+  width: 555px;
+  font-size: 20px;
+  line-height: 30px;
+  padding-top: 0;
+  margin-bottom: 30px;
+}
+
+li {
+  display: inline-block;
+  margin: 20px 25px;
+  font-size: 20px;
+}
+
+.pages {
+  text-decoration: none;
+  color: #a2a2a2;
+}
+
+#blue-logo {
+  width: 200px;
+  height: 35px;
+  margin: 30px 230px 0 0;
+}
+
+#contact {
+  border: solid 3px #294463;
+  padding: 10px;
+  color: white !important;
+  background-color: #294463;
+  border-radius: 5%;
+  text-decoration: none;
+}
+
+.top {
+  background-image: url("images/hero.jpg");
+  width: 1350px;
+  height: 630px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  background-size: 1350px;
+  position: relative;
+}
+
+.overlay {
+  background-image: linear-gradient(0deg, rgb(0 0 0 / 35%), rgb(0 0 0 / 35%));
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.top-text {
+  color: white;
+  position: relative;
+  margin-left: 80px;
+}
+
+.get {
+  border: solid 3px #294463;
+  padding: 10px 40px;
+  color: white;
+  background-color: #294463;
+  border-radius: 5%;
+  text-decoration: none;
+  margin: 0 15px;
+  position: absolute;
+}
+
+h2 {
+  font-family: "Tiempos Headline", serif;
+  font-size: 35px;
+  padding-top: 30px;
+  margin-bottom: 2px;
+  color: #6e6e6e;
+  font-weight: 300;
+}
+
+.middle {
+  width: 1515px;
+  background-color: #fafafa;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  position: relative;
+}
+
+#middle-text {
+  margin-bottom: 80px;
+}
+
+.grey-text {
+  color: #6e6e6e;
+  margin: 4px;
+  font-size: 18px;
+}
+
+.location {
+  color: #6e6e6e;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.col-2,
+.col-3 {
+  margin: 0 155px;
+  margin-bottom: 80px;
+}
+
+.row-2 {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+#ready {
+  margin-left: 100px;
+}
+
+.bottom-text {
+  color: #6e6e6e;
+  margin-left: 100px;
+}
+
+.col-4,
+.col-5 {
+  margin-bottom: 5px;
+}
+
+ul {
+  display: flex;
+}
+
+#bottom-get {
+  margin-left: 715px;
+  margin-top: 30px;
+}
+
+.foot {
+  background-color: #525351;
+  padding-bottom: 150px;
+}
+
+#white-logo {
+  width: 200px;
+  height: 35px;
+  margin: 100px 430px 50px 80px;
+}
+
+.address {
+  width: 230px;
+  color: white;
+  margin: 0 430px 0 80px;
+  line-height: 30px;
+}
+
+.row-3 {
+  display: flex;
+}
+
+.col-7,
+.col-8 {
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-family: Avenir, Arial, Helvetica, sans-serif;
+  position: relative;
+  width: 10000px;
+}
+
+.col-7 {
+  width: fit-content;
+}
+
+.col-8 {
+  margin-left: 100px;
+  width: 10000px;
+  position: relative;
+  left: 80px;
+}
+
+h3 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  margin: 100px 10px;
+}
+
+#blog-1 {
+  position: relative;
+  top: 20px;
+  right: 58px;
+}
+
+#product {
+  position: relative;
+  right: 100px;
+}
+
+#product-1,
+#health-plans,
+#implementation,
+#secure {
+  position: relative;
+  right: 110px;
+}
+
+#implementation {
+  position: relative;
+  top: 20px;
+}
+
+#health-plans {
+  position: relative;
+  top: 40px;
+}
+
+#secure {
+  position: relative;
+  top: 60px;
+}
+
+#us {
+  position: relative;
+  left: 75px;
+  bottom: 30px;
+}
+
+#about {
+  position: relative;
+  right: 8px;
+}
+
+.contact-us {
+  color: #6e6e6e;
+  font-size: 18px;
+  padding-left: 40px;
+}
+
+#privacy {
+  padding-left: 80px;
+  color: #6e6e6e;
+  font-size: 18px;
+}
+
+footer {
+  display: flex;
+  margin: 30px 0;
+}
+
+h4 {
+  font-family: Avenir, Arial, Helvetica, sans-serif;
+}
