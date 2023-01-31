@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  font-family: Barlow, sans-serif;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.col-1,
+.col-2,
+.col-3,
+.col-4 {
+  display: flex;
+  width: 20rem;
+}
+
+.phone-1 {
+  flex-direction: column;
+}
+
+img:nth-child(1) {
+  width: 20rem;
+}
+
+img:nth-child(2) {
+  width: 5rem;
+}
