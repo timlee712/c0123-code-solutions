@@ -12,7 +12,7 @@ console.log($hint);
 console.dir($hint);
 
 var $paragraphs = document.querySelectorAll('p');
-console.log(document.querySelectorAll($paragraphs));
+console.log($paragraphs);
 
 var $links = document.querySelectorAll('.example-link');
-console.log(document.querySelectorAll($links));
+console.log($links);
