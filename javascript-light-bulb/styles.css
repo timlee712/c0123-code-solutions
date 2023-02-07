@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+}
+
+button {
+  border-radius: 50%;
+  flex-basis: 15%;
+  padding: 8rem;
+  margin: 20rem;
+  border: none;
+}
+
+.switch.light {
+  background-color: #f9ea84;
+  box-shadow: 0.25rem 0.25rem 0.25rem 0.5rem #f9ea84;
+}
+
+.switch.dark {
+  background-color: #252525;
+}
+
+.light-bulb.black {
+  background-color: #111;
+}
+
+.light-bulb.white {
+  background-color: #fef9f1;
+}
