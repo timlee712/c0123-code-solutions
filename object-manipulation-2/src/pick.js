@@ -1,4 +1,5 @@
 /* exported pick */
+object-manipulation-2
 function pick(source, keys) {
   var output = {};
   for (var i = 0; i < keys.length; i++) {
@@ -8,4 +9,13 @@ function pick(source, keys) {
     }
   }
   return output;
+=======
+
+function pick(source, keys) {
+  var picked = {};
+  for (keys in source) {
+    picked.push(keys);
+  }
+  return picked;
+ main
 }

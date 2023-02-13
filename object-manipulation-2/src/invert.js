@@ -1,4 +1,5 @@
 /* exported invert */
+object-manipulation-2
 
 function invert(source) {
   var output = {};
@@ -7,3 +8,5 @@ function invert(source) {
   }
   return output;
 }
+=======
+main

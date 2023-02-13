@@ -1,4 +1,5 @@
 /* exported defaults */
+object-manipulation-2
 
 function defaults(target, source) {
   for (var key in source) {
@@ -7,3 +8,5 @@ function defaults(target, source) {
     }
   }
 }
+=======
+main

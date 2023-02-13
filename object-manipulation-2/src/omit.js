@@ -1,4 +1,5 @@
 /* exported omit */
+object-manipulation-2
 
 function omit(source, keys) {
   var output = {};
@@ -9,3 +10,5 @@ function omit(source, keys) {
   }
   return output;
 }
+=======
+main
