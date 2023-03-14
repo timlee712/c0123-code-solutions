@@ -1,0 +1,500 @@
+   54  git switch main
+   55  git branch javascript-typing-tutor
+   56  git switch javascript-typing-tutor
+   57  git add javascript-typing-tutor
+   58  git status
+   59  git commit -m "javascript-typing-tutor Timothy Lee"
+   60  git add javascript-typing-tutor
+   61  git status
+   62  git commit -m "javascript-typing-tutor Timothy Lee"
+   63  git push origin javascript-typing-tutor
+   64  git switch main
+   65  git branch css-transitions
+   66  git switch css-transitions
+   67  git add css-transitions
+   68  git status
+   69  git commit -m "css-transitions Timothy Lee"
+   70  git push origin css-transitions
+   71  git switch main
+   72  git switch css-transitions
+   73  git switch main
+   74  clear
+   75  git branch javascript-forms
+   76  git switch javascript-forms
+   77  git add javascript-forms
+   78  git status
+   79  git commit -m "javascript-forms Timothy Lee"
+   80  git push origin javascript-forms
+   81  git add javascript-forms
+   82  git commit -m "javascript-forms Timothy Lee"
+   83  git push orign javascript-forms
+   84  git push origin javascript-forms
+   85  clear
+   86  git switch main
+   87  git pull origin main
+   88  clear
+   89  git pull origin main
+   90  git switch array-manipulation-2
+   91  git switch main
+   92  clear
+   93  git branch object-manipulaiton-2
+   94  git switch object-manipulation-2
+   95  git branch --delete object-manipulaiton-2
+   96  git branch object-manipulation-2
+   97  git switch object-manipulation-2
+   98  git switch main
+   99  git branch dom-creation
+  100  git switch dom-creation
+  101  git switch object-manipulation-2
+  102  git add object-manipulation-2
+  103  git switch dom-creation
+  104  clear
+  105  git add dom-creation
+  106  git status
+  107  git commit -m "dom-creation Timothy Lee"
+  108  git push origin dom-creation
+  109  git switch object-manipulation-2
+  110  git switch dom-creation
+  111  git switch object-manipulation-2
+  112  git switch main
+  113  git pull origin main
+  114  git switch object-manipulation-2
+  115  git switch main
+  116  git add object-manipulation-2
+  117  git commit -m "object-manipulation-2 Timothy Lee"
+  118  git add object-manipulation-2
+  119  git status
+  120  git commit -m "object-manipulation-2 Timothy Lee"
+  121  git switch main
+  122  git switch object-manipulation-2
+  123  git switch main
+  124  git status
+  125  git switch array-manipulation-2
+  126  git add array-manipulation-2
+  127  git status
+  128  git commit -m "array-manipulation-2 Timothy Lee"
+  129  git push origin array-manipulation-2
+  130  git switch main
+  131  git branch css-media-queries
+  132  git switch css-media-queries
+  133  git switch main
+  134  git pull origin main
+  135  git switch css-media-queries
+  136  git add css-media-queries
+  137  git status
+  138  git commit -m "css-media-queries Timothy Lee"
+  139  git push origin css-media-queries
+  140  git switch main
+  141  clear
+  142  git branch dom-event-delegation
+  143  git switch dom-event-delegation
+  144  git add dom-event-delegation
+  145  git status
+  146  git commit -m "dom-event-delegation Timothy Lee"
+  147  git push origin dom-event-delegation
+  148  git add dom-event-delegation
+  149  git status
+  150  git commit -m "dom-event-delegation Timothy Lee"
+  151  git push origin dom-event-delegation
+  152  git switch main
+  153  git pull origin main
+  154  clear
+  155  git add dom-event-delegation
+  156  git status
+  157  git commit -m "dom-event-delegation Timothy Lee"
+  158  clear
+  159  git branch javascript-view-swapping
+  160  git switch javascript-view-swapping
+  161  git add javascript-view-swapping
+  162  git status
+  163  git commit -m "javascript-view-swapping Timothy Lee"
+  164  git push origin javascript-view-swapping
+  165  git switch main
+  166  git switch javascript-view-swapping
+  167  cleawr
+  168  clear
+  169  git switch javascript-view-swapping
+  170  git switch main
+  171  clear
+  172  git status
+  173  clear
+  174  git push origin main
+  175  clear
+  176  git pull origin main
+  177  clear
+  178  git status
+  179  git pull origin main
+  180  git --rebase
+  181  clear
+  182  git branch css-responsive-layout
+  183  git switch css-responsive-layout 
+  184  git switch main
+  185  git switch css-responsive-layout 
+  186  clear
+  187  git add css-responsive-layout
+  188  git status
+  189  git commit -m "css-responsive-layout Timothy Lee"
+  190  git push origin css-responsive-layout
+  191  git switch main
+  192  git add dom-event-delegation
+  193  git commit -m "dom-event-delegation Timothy Lee"
+  194  git pull origin main
+  195  git push origin dom-event-delegation
+  196  git pull origin main
+  197  clear
+  198  git status
+  199  git pull down main
+  200  clear
+  201  git pull origin main
+  202  git pull down main
+  203  clear
+  204  git pull origin main
+  205  git pull --rebase
+  206  git pull origin main
+  207  git status
+  208  git pull --rebase
+  209  git pull origin main
+  210  git status
+  211  git log
+  212  git push origin main
+  213  git pull origin main
+  214  clear
+  215  git branch javascript-and-json
+  216  git switch javascript-and-json
+  217  git add javascript-and-json
+  218  git status 
+  219  git branch --rebase
+  220  git --rebase
+  221  clear
+  222  git switch string-manipulation-2
+  223  git branch --rebase
+  224  git --rebase
+  225  git switch javascript-and-json
+  226  git status
+  227  git commit -m "javascript-and-json Timothy Lee"
+  228  git push origin javascript-and-json
+  229  git status
+  230  git branch --rebase
+  231  clear
+  232  git switch main
+  233  git switch string-manipulation-2
+  234  git commit -m "string-manipulation-2 Timothy Lee"
+  235  git add string-manipulation-2
+  236  git commit -m "string-manipulation-2 Timothy Lee"
+  237  git switch main
+  238  clear
+  239  git status
+  240  clear
+  241  git branch javascript-local-storage
+  242  git switch javascript-local-storage
+  243  git add javascript-local-storage
+  244  git status
+  245  git commit -m "javascript-local-storage Timothy Lee"
+  246  git push origin javascript-local-storage
+  247  git switch main
+  248  git pull origin main
+  249  clear
+  250  git pull origin main
+  251  clear
+  252  git switch object-manipulation-2
+  253  git switch main
+  254  git add object-manipulation-2
+  255  git status
+  256  git commit -m "object-manipulation-2 Timothy Lee"
+  257  git add object-manipulation-2
+  258  git status
+  259  git commit -m "object-manipulation-2 Timothy Lee"
+  260  git add object-manipulation-2
+  261  git status
+  262  git commit -m "object-manipulation-2 Timothy Lee"
+  263  git switch main
+  264  clear
+  265  git switch object-manipulation-2
+  266  git add object-manipulation-2
+  267  git status
+  268  git commit -m "object-manipulation-2 Timothy Lee"
+  269  git push origin main
+  270  git push origin object-manipulation-2
+  271  git switch main
+  272  clear
+  273  git branch string-manipulation-3
+  274  git switch string-manipulation-3
+  275  git add string-manipulation-3
+  276  git status
+  277  git commit -m "string-manipulation-3 Timothy Lee"
+  278  clear
+  279  git switch main
+  280  git switch object-manipulation-3
+  281  clear
+  282  git pull origin main
+  283  clear
+  284  git pull origin main
+  285  git branch javascript-custom-methods
+  286  git switch javascript-custom-methods
+  287  git add .
+  288  git status
+  289  git add javascript-custom-methods
+  290  git status
+  291  git commit -m "javascript-custom-methods Timothy Lee"
+  292  git push origin javascript-custom-methods
+  293  clear
+  294  git switch main
+  295  git pull origin main
+  296  clear
+  297  git branch javascript-this
+  298  git switch javascript-this
+  299  git add javascript-this
+  300  git status
+  301  git commit -m "javascript-this Timothy Lee
+  302  git commit -m "javascript-this Timothy Lee"
+  303  git push origin javacript-this
+  304  git push origin javascript-this
+  305  clear
+  306  git switch main
+  307  git pull origin main
+  308  clear
+  309  git branch javascript-prototypes
+  310  git switch javascript-prototypes
+  311  clear
+  312  git add javascript-prototypes
+  313  git status
+  314  git commit -m "javascript-prototypes Timothy Lee"
+  315  git push origin javascript-prototypes
+  316  git switch main
+  317  git pull origin main
+  318  clear
+  319  git branch javascript-constructors
+  320  git switch javascript-constructors
+  321  git add javascript-constructors
+  322  git status
+  323  git commit -m "javascript-constructors Timothy Lee"
+  324  git push orign javascript-constructors
+  325  git push origin javascript-constructors
+  326  clear
+  327  git switch main
+  328  git pull origin main
+  329  git branch javascript-bank
+  330  git switch javascript-bank
+  331  git add javascript-bank
+  332  git status
+  333  git commit -m "javascript-bank Timothy Lee"
+  334  git push origin javascript-bank
+  335  git switch main
+  336  git branch --list
+  337  git switch string-manipulation-3
+  338  git switch main
+  339  git pull origin main
+  340  git switch string-manipulation-3
+  341  git add .
+  342  git status
+  343  git commit -m "string-manipulation-3 Timothy Lee"
+  344  git add .
+  345  git status
+  346  git commit -m "javascript-manipulation-3 Timothy Lee"
+  347  git switch main
+  348  clear
+  349  git switch string-manipulation-3
+  350  git switch main
+  351  clear
+  352  git branch javascript-timers
+  353  git switch javascript-timers
+  354  git add javascript-timers
+  355  git commit -m "javascript-timers Timothy Lee"
+  356  git push origin javascript-timers
+  357  clear
+  358  git switch main
+  359  git pull origin main
+  360  clear
+  361  git switch string-manipulation-3
+  362  git add string-manipulation-3
+  363  git status
+  364  git commit -m "string-manipulation-3 Timothy Lee"
+  365  clear
+  366  git switch main
+  367  git branch javascript-carousel
+  368  git switch javascript-carousel
+  369  git add javascript-carousel
+  370  git status
+  371  git commit -m "javascript-carousel Timothy Lee"
+  372  git push origin javascript-carousel
+  373  git switch main
+  374  git add .
+  375  git status
+  376  git commit -m "practice-interview-question Timothy Lee"
+  377  clear
+  378  git branch http-messages
+  379  git switch http-messages 
+  380  http http://example.com
+  381  http http://example.com --verbase
+  382  http --verbase http://example.com
+  383  https httpie.io/hello
+  384  http http://example.com
+  385  http --verbase http://example.com
+  386  http --verbose http://example.com
+  387  http --body GET https://jsonplaceholder.typicode.com/users > http-messages/users.json
+  388  http --body GET https://example.com > http-messages/index.html
+  389  git add .
+  390  git status
+  391  git commit -m "http-messages Timothy Lee"
+  392  git push origin http-messages
+  393  git switch main
+  394  git pull origin main
+  395  clear
+  396  git status
+  397  git switch string-manipulation-3
+  398  git add string-manipulation-3
+  399  git commit -m "string-manipulation-3 Timothy Lee"
+  400  git add string-manipulation-3
+  401  git commit -m "string-manipulation-3 Timothy Lee"
+  402  clear
+  403  git switch main
+  404  git branch javascript-ajax
+  405  git switch javascript-ajax
+  406  git add javascript-ajax
+  407  git commit -m "
+  408  git status
+  409  git commit -m "javascript-ajax Timothy Lee"
+  410  git push origin javascript-ajax 
+  411  git switch main
+  412  git pull origin main
+  413  clear
+  414  http https://valorant-api.com/v1/agents
+  415  http https://valorant-api.com/v1/maps
+  416  http https://valorant-api.com/v1/weapons
+  417  http https://valorant-api.com/v1/competitivetiers
+  418  http https://valorant-api.com/v1/agents
+  419  clear
+  420  http https://valorant-api.com/v1/maps
+  421  cleawr
+  422  clear
+  423  http https://valorant-api.com/v1/weapons
+  424  http https://valorant-api.com/v1/competitivetiers
+  425  clear
+  426  git pull origin main
+  427  git branch es6-const-let
+  428  git switch es6-const-let 
+  429  git add es6-const-let
+  430  git status
+  431  git commit -m "Completed es6-const-let Timothy Lee"
+  432  git push origin es6-const-let 
+  433  git switch main
+  434  git pull origin main
+  435  git pull origin main
+  436  clear
+  437  git branch es6-template-literals
+  438  git switch es6-template-literals 
+  439  git add es6-template-literals
+  440  git status
+  441  git commit -m "Completed es6-template-literals Timothy Lee"
+  442  git push origin es6-template-literals
+  443  git switch main
+  444  git branch es6 destructuring
+  445  git branch es6-destructuring
+  446  git switch es6-destructuring 
+  447  git add .
+  448  git status
+  449  git commit -m "Completed es6-destructuring Timothy Lee"
+  450  git push origin es6-destructuring 
+  451  git switch main
+  452  git pull origin main
+  453  git switch es6-destructuring 
+  454  git add .
+  455  git status
+  456  git commit -m "Revised es6-destructuring Timothy Lee"
+  457  git push origin es6-destructuring 
+  458  git add .
+  459  git status
+  460  git commit -m "Revised es6-destructuring 2 Timothy Lee"
+  461  git push origin es6-destructuring 
+  462  git add .
+  463  git status
+  464  git commit -m "Revised es6-destructuring 3 Timothy Lee"
+  465  git push origin es6-destructuring 
+  466  git branch es6-arrow-function
+  467  git switch es6-arrow-function 
+  468  git add .
+  469  git status
+  470  git branch es6-arrow-function es6-arrow-functions
+  471  git branch -m es6-arrow-function es6-arrow-functions
+  472  git add .
+  473  git status
+  474  git commit -m "Completed es6-arrow-functions Timothy Lee"
+  475  git push origin es6-arrow-functions 
+  476  git switch main
+  477  git pull origin main
+  478  clear
+  479  git swtich es6-arrow-functions/
+  480  git switch es6-arrow-functions
+  481  git switch main
+  482  git add .
+  483  git commit -m "Fixed lint"
+  484  git push origin main
+  485  git pull origin main
+  486  git branch command-line-basics
+  487  git switch command-line-basics 
+  488  cd command-line-basics
+  489  man man
+  490  man cat
+  491  cat laziness.txt
+  492  cat impatience.txt
+  493  cat hubris.txt
+  494  cat
+  495  cd command-line-basics
+  496  cat cat
+  497  cat combine
+  498  man cat
+  499  cat --showall
+  500  cat -A
+  501  cat laziness.txt impatience.txt hubris.txt > three-virtues.txt
+  502  cat laziness.txt
+  503  cd command-line-basics
+  504  cat laziness.txt impatience.txt hubris.txt > three-virtues.txt
+  505  cat three-virtues.txt
+  506  man ls
+  507  man ls
+  508  ls
+  509  ls -a
+  510  ls -f
+  511  ls lfz-staff/
+  512  ls lfz-staff/ -a
+  513  ls lfz-staff/ -f
+  514  ls -aF lfz-staff > lfz-staff/contents.txt
+  515  cat lfz-staff/contents.txt
+  516  man pwd
+  517  pwd
+  518  pwd > i-was-here.txt
+  519  ls
+  520  cat i-was-here.txt
+  521  man echo
+  522  echo 'Hello, World!'
+  523  echo 'Hello, World!' > hello.txt
+  524  ls
+  525  cat hello.txt
+  526  man touch
+  527  touch tag-youre-it.txt
+  528  touch snoot/boop.txt
+  529  ls
+  530  ls snoot
+  531  man mkdir
+  532  mkdir parent
+  533  man mkdir
+  534  mkdir -p parent/child/grandchild
+  535  ls parent/
+  536  touch parent/child/grandchild/.gitkeep
+  537  ls -a
+  538  man mv
+  539  mv pokiemans pokemon
+  540  ls
+  541  man rm
+  542  man rm
+  543  rm lol.txt
+  544  rm -r kill-me/
+  545  ls
+  546  man cp
+  547  cp and-then.txt no-and-then.txt
+  548  ls
+  549  cat and-then.txt
+  550  cat no-and-then.txt
+  551  man history
+  552  history
+  553  history > command-history.txt
