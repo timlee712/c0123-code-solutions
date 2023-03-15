@@ -1,2 +1,4 @@
-const diff = (a, b) => a - b;
-export default diff;
+
+export default function subtract(a, b) {
+  return a - b;
+}

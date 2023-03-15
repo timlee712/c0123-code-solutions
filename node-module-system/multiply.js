@@ -1,2 +1,4 @@
-const product = (a, b) => a * b;
-export default product;
+
+export default function multiply(a, b) {
+  return a * b;
+}
