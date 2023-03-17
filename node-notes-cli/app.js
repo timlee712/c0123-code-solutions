@@ -86,15 +86,19 @@ async function updateNotes() {
 // it was pretty fun learning how to use ternary operators instead of if else statements
 async function main() {
   const command = process.argv[2];
-  return command === 'read'
-    ? readNotes()
-    : command === 'create'
-      ? createNotes()
-      : command === 'delete'
-        ? deleteNotes()
-        : command === 'update'
-          ? updateNotes()
-          : console.log(`Invalid command: ${command}`);
+
+  switch (command) {
+    case 'read':
+      return readNotes();
+    case 'create':
+      return createNotes();
+    case 'delete':
+      return deleteNotes();
+    case 'update':
+      return updateNotes();
+    default:
+      console.log(`Invalid command: ${command}`);
+  }
 }
 
 main();
