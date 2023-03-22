@@ -45,7 +45,7 @@ app.post('/api/notes', async (req, res) => {
     try {
       const data = await readFile(dataPath, 'utf8');
       const notes = JSON.parse(data).notes;
-      const id = Object.keys(notes).length + 1;
+      const id = Math.floor(Math.random() * 100) + 1;
       notes[id] = { id, content };
       await writeFile(dataPath, JSON.stringify({ notes }));
       res.status(201).json(notes[id]);
