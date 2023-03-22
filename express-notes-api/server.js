@@ -44,17 +44,42 @@ app.post('/api/notes', async (req, res) => {
   } else {
     try {
       const data = await readFile(dataPath, 'utf8');
-      const notes = JSON.parse(data).notes;
-      const id = Math.floor(Math.random() * 100) + 1;
-      notes[id] = { id, content };
-      await writeFile(dataPath, JSON.stringify({ notes }));
-      res.status(201).json(notes[id]);
+      const idNotes = JSON.parse(data);
+      const newId = idNotes.nextId.toString();
+      const newNote = {
+        id: Number(newId),
+        content
+      };
+      idNotes.notes[newId] = newNote;
+      idNotes.nextId++;
+      const newData = JSON.stringify(idNotes, null, 2);
+      await writeFile(dataPath, newData, 'utf8');
+      res.status(201).json(newNote);
     } catch (err) {
       console.error(err.message);
       res.status(500).json({ error: 'An unexpected error occured.' });
     }
   }
 });
+
+// app.post('/api/notes', async (req, res) => {
+//   const content = req.body.content;
+//   if (!content) {
+//     res.status(400).json({ error: 'content is a required field' });
+//   } else {
+//     try {
+//       const data = await readFile(dataPath, 'utf8');
+//       const notes = JSON.parse(data).notes;
+//       const { nextId } = notes;
+//       notes[nextId] = { id: nextId, content: req.body.content };
+//       await writeFile(dataPath, JSON.stringify({ notes }));
+//       res.status(201).json(notes[nextId]);
+//     } catch (err) {
+//       console.error(err.message);
+//       res.status(500).json({ error: 'An unexpected error occured.' });
+//     }
+//   }
+// });
 
 app.put('/api/notes/:id', (req, res) => {
   const id = Number(req.params.id);
