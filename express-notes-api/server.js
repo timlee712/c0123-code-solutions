@@ -18,7 +18,7 @@ app.get('/api/notes', async (req, res) => {
 });
 
 app.get('/api/notes/:id', async (req, res) => {
-  const id = parseInt(req.params.id);
+  const id = Number(req.params.id);
   if (isNaN(id) || id <= 0) {
     res.status(400).json({ error: 'id must be a positive integer' });
   } else {
@@ -57,7 +57,7 @@ app.post('/api/notes', async (req, res) => {
 });
 
 app.put('/api/notes/:id', (req, res) => {
-  const id = parseInt(req.params.id);
+  const id = Number(req.params.id);
   const content = req.body.content;
   if (!id) {
     return res.status(400).json({ error: 'id must be a positive integer' });
