@@ -1,0 +1,21 @@
+{
+  "notes": {
+    "1": {
+      "id": 1,
+      "content": "Test 5"
+    },
+    "2": {
+      "id": 2,
+      "content": "testing"
+    },
+    "6": {
+      "id": 6,
+      "content": "Hello"
+    },
+    "7": {
+      "id": 7,
+      "content": "It worked"
+    }
+  },
+  "nextId": 8
+}
