@@ -1,13 +1,13 @@
 /* exported Shape */
 
 class Shape {
-  constructor(area, circumference) {
+  constructor(area, perimeter) {
     this.area = area;
-    this.circumference = circumference;
+    this.perimeter = perimeter;
   }
 
   print() {
-    return `Area: ${this.area}, Circumference: ${this.circumference}`;
+    return `Area: ${this.area}, Perimeter: ${this.perimeter}`;
   }
 }
 

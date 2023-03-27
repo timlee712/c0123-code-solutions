@@ -4,8 +4,8 @@
 class Square extends Shape {
   constructor(width) {
     const area = width * width;
-    const circumference = 4 * width;
-    super(area, circumference);
+    const perimeter = 4 * width;
+    super(area, perimeter);
     this.width = width;
   }
 
