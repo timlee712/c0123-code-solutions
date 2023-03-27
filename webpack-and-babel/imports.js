@@ -19,4 +19,4 @@ import f4 from './baz/index.js';
 import f5 from '../baz/index.js';
 
 // import from an `npm` module named `react`:
-import f6 from 'fixme6';
+import react from 'react';
