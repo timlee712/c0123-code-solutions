@@ -4,7 +4,7 @@ export default function CustomButton({ text, color }) {
   };
   return (
     <button style={buttonStyle}>
-      { text }
+      {text}
     </button>
-    );
+  );
 }
