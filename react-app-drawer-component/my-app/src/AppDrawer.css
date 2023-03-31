@@ -1,0 +1,40 @@
+.pointer {
+  cursor: pointer;
+}
+
+.drawer-container {
+  position: fixed;
+  top: 0;
+  left: -25%;
+  bottom: 0;
+  box-shadow: 2px 0 5px rgb(0 0 0 / 50%);
+  transition: all 0.3s ease-out;
+  z-index: 1040;
+}
+
+.drawer-container.open {
+  left: 0;
+}
+
+.drawer-header {
+  background-color: #eee;
+}
+
+.drawer-content {
+  padding-top: 1rem;
+}
+
+.drawer-overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgb(0 0 0 / 50%);
+  z-index: 1030;
+  transition: 0.2s;
+}
+
+.drawer-content-overlay {
+  position: absolute;
+  inset: 0;
+  background-color: transparent;
+  z-index: 1035;
+}
