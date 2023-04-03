@@ -1,0 +1,26 @@
+.carousel-image {
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.carousel-image.active {
+  opacity: 1;
+}
+
+.carousel-dot {
+  font-size: 24px;
+  color: rgb(140 140 140);
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.carousel-dot.active {
+  color: #f42727;
+}
+
+.carousel-arrow {
+  font-size: 24px;
+  color: black;
+  cursor: pointer;
+}
