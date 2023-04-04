@@ -12,6 +12,9 @@ export default function User({ userId, onCancel }) {
       setIsLoading(true);
       try {
         const response = await fetch(`https://jsonplaceholder.typicode.com/users/${userId}`);
+        if (!response.ok) {
+          throw new Error(`Error! status: ${response.status}`);
+        }
         const data = await response.json();
         setUser(data);
         setIsLoading(false);
