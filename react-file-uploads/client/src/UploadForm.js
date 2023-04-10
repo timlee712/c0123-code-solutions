@@ -25,8 +25,13 @@ export default function UploadForm() {
         method: 'POST',
         body: formData
       });
-      const data = await res.json();
-      console.log('data:', data);
+      if (res.ok) {
+        const data = await res.json();
+        console.log('data:', data);
+      } else {
+        throw new Error(`error ${res.status}`);
+      }
+
     } catch (err) {
       console.error(err);
     }
