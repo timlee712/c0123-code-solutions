@@ -50,35 +50,21 @@ export function useTodos() {
      * When updating this state, use the updated `todo` returned from the API.
      * Note that it is critical that you pass a _new_ array. Do not modify the `todos` array.
      */
-    setTodos(prevTodos => {
-      const index = prevTodos.findIndex(todo => todo.todoId === todoId);
-      if (index === -1) {
+    try {
+      const todoToUpdate = todos.find(todo => todo.todoId === todoId);
+      if (!todoToUpdate) {
         console.error(`Todo with id ${todoId} not found`);
-        return prevTodos;
+        return;
       }
-      const updatedTodo = { ...prevTodos[index], isCompleted: !prevTodos[index].isCompleted };
-      async function updateTodoItem() {
-        try {
-          const updatedTodoData = await updateTodo(updatedTodo);
-          return updatedTodoData;
-        } catch (error) {
-          console.error(error);
-        }
-      }
-      updateTodoItem()
-        .then(updatedTodo => {
-          const newTodos = prevTodos.map(todo => {
-            if (todo.todoId === todoId) {
-              return updatedTodo;
-            } else {
-              return todo;
-            }
-          });
-          setTodos(newTodos);
-        })
-        .catch(error => console.error(error));
-      return prevTodos;
-    });
+
+      const updatedTodo = { ...todoToUpdate, isCompleted: !todoToUpdate.isCompleted };
+      const updatedTodoData = await updateTodo(updatedTodo);
+
+      const updatedTodos = todos.map(todo => (todo.todoId === todoId ? updatedTodoData : todo));
+      setTodos(updatedTodos);
+    } catch (error) {
+      console.error(error);
+    }
   }
 
   return {
