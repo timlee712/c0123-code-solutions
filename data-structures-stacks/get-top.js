@@ -1,7 +1,8 @@
 export default function getTop(stack) {
-  if (stack.length === 0) {
+  const top = stack.peek();
+  if (typeof top === 'undefined') {
     return undefined;
   } else {
-    return stack.peek();
+    return top;
   }
 }

@@ -1,7 +1,8 @@
 export default function takeTop(stack) {
-  if (stack.length === 0) {
+  const top = stack.pop();
+  if (typeof top === 'undefined') {
     return undefined;
   } else {
-    return stack.pop();
+    return top;
   }
 }
