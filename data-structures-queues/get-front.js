@@ -1,7 +1,3 @@
 export default function getFront(queue) {
-  if (queue.peek() !== undefined) {
-    return queue.peek();
-  } else {
-    return undefined;
-  }
+  return queue.peek();
 }
